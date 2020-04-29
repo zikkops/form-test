@@ -40,7 +40,7 @@
   font-family: "Dubai Regular", sans-serif;
   font-size: 4rem;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   color: white;
   line-height: 4.3rem;
 }
@@ -48,7 +48,7 @@
   font-family: "Dubai Regular", sans-serif;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: white;
 }
 #contact-a .text-fields {
@@ -61,7 +61,7 @@
   display: block;
   width: 400px;
   height: 30px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 #contact-a .text-fields input::placeholder {
   font-family: "Dubai Regular", sans-serif;
@@ -71,7 +71,6 @@
   width: 439px;
   height: 50px;
   line-height: 50px;
-  /* padding: 10px 0; */
   font-family: "Dubai Regular", sans-serif;
   font-weight: bold;
   font-size: 2rem;
@@ -79,6 +78,7 @@
   background-color: white;
   border: #005844 2px solid;
   transition: all 0.4s;
+  margin-top: 40px;
 }
 #contact-a .text-fields .btn-dark:hover {
   cursor: pointer;
@@ -90,6 +90,11 @@
 
 #contact-a .text-fields .text-input {
   padding: 0.5rem 1rem;
+}
+.text-fields h1 {
+  font-family: "Dubai Regular", sans-serif;
+  color: white;
+  text-align: none;
 }
 /* SUCESS PAGE */
 #contact-a a {
