@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Dubai Police | Form</title>
+  </head>
+  <body>
+    <!-- MAIN NAVBAR -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="imgs/government-of-dubai.svg" alt="Gov" id="logo" />
+          <img src="imgs/dubai-police.svg" alt="Dubai Police" id="logo2" />
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN FORM -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h1 class="section-title">Form</h1>
+        <p>Kindly Fill This Form to be redirected To the Confrence</p>
+        <div class="bottom-line"></div>
+        <form method="POST" data-netlify="true" action="Success.html">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="Name"
+            />
+            <input
+              type="tel"
+              class="text-input Phone-input"
+              placeholder="Phone Number :971-000-000"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+            <input
+              type="email"
+              class="text-input Email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+
+            <button type="submit" class="btn-dark text-center sub-butn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

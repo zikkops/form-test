@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@font-face {
+  font-family: "Dubai Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Regular"), url("Dubai-Regular.woff") format("woff");
+}
+/*main header  */
+#header-inner .container {
+  width: 90vw;
+  margin: 15px 5vw;
+}
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+#header-inner .container #logo {
+  height: 54px;
+  width: auto;
+}
+#header-inner .container #logo2 {
+  height: 54px;
+  width: auto;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Contact FOrm */
+#contact-a {
+  width: 100vw;
+  height: 95vh;
+  /* margin: 0 5vw; */
+  background-color: #005844;
+}
+#contact-a .section-title {
+  font-family: "Dubai Regular", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  line-height: 4.3rem;
+}
+#contact-a p {
+  font-family: "Dubai Regular", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+#contact-a .text-fields {
+  display: block;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+#contact-a .text-fields input {
+  display: block;
+  width: 400px;
+  height: 30px;
+  margin: 20px auto;
+}
+#contact-a .text-fields input::placeholder {
+  font-family: "Dubai Regular", sans-serif;
+  font-size: 1rem;
+}
+#contact-a .text-fields .btn-dark {
+  width: 439px;
+  height: 50px;
+  line-height: 50px;
+  /* padding: 10px 0; */
+  font-family: "Dubai Regular", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #005844;
+  background-color: white;
+  border: #005844 2px solid;
+  transition: all 0.4s;
+}
+#contact-a .text-fields .btn-dark:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #005844;
+  border: white 2px solid;
+  transition: all 0.4s;
+}
+
+#contact-a .text-fields .text-input {
+  padding: 0.5rem 1rem;
+}
+/* SUCESS PAGE */
+#contact-a a {
+  display: block;
+  text-decoration: none;
+  margin: 120px auto;
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+  height: 50px;
+  line-height: 50px;
+  /* padding: 10px 0; */
+  font-family: "Dubai Regular", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #005844;
+  background-color: white;
+  border: #005844 2px solid;
+  transition: all 0.4s;
+}
+
+#contact-a a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #005844;
+  border: white 2px solid;
+  transition: all 0.4s;
+}
+#contact-a h1.success {
+  margin-top: 100px;
+}
+#contact-a .success-p {
+  margin-bottom: 60px;
+}
